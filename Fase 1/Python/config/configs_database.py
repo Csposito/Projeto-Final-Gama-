@@ -16,8 +16,8 @@ class Database(object):
                                    #'PWD=sa;'
                                    'Server=dataheroes.database.windows.net;'
                                    'Database=Projeto_Final;'
-                                   'UID=administrador;'
-                                   'PWD=dados@covid1;'
+                                   'UID=XXX;' #Usuario
+                                   'PWD=XXX;' #Senha
         )
         self.cursor = self.conn.cursor()
 
